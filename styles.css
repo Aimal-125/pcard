@@ -101,9 +101,29 @@ body {
 	.imgdiv {
 		width: 100%;
 	}
+	.price {
+		font-size: 90%;
+	}
+	.cutprice {
+		font-size: 80%;
+		top: -2px;
+	}
+	.add {
+		padding: 3%;
+		font-size: 90%;
+	}
+	.description {
+		font-size: 80%;
+	}
+	.dtext {
+		font-size: 80%;
+	}
+	.dhd {
+		font-size: 90%;
+	}
 	.desc {
 		width: 100%;
-		padding: 25px;
+		padding: 7%;
 		border-radius: 0;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
@@ -116,5 +136,20 @@ body {
 		width: 100%;
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
+	}
+}
+
+@media screen and (orientation: landscape) {
+	.container {
+		flex-direction: row;
+	}
+	#mobileimg {
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 10px;
+		height: 100%;
+	}
+	.desc {
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
 	}
 }
